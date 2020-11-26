@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Consulta paradigmas" content="Consulta sobre algunos paradigmas de programación web">
+    <!--La siguiente línea trae un estilo de Boostrap para el CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Consulta paradigmas</title>
+</head>
+
+<body id="fondo">
+    <header>
+        <h1>Consulta paradigmas</h1>
+    </header>
+    <nav>
+        <a href="index.html">Volver al inicio</a>
+    </nav>
+    <section id="seccion_centro">
+        <table>
+            <tr>
+                <td>
+                    <h2>Paradigma DevOps</h2>
+                    <article>
+                        <p>Regularmente en proyectos de software existe una deficiente colaboración entre el desarrollo
+                            y las operaciones, por eso, es común escuchar conflictos donde el producto desplegado no
+                            funciona, aunque localmente se ejecutaba correctamente; si bien es cierto que existen
+                            herramientas que solucionan el problema, la integración de estas es un reto que debe ser
+                            tomado en cuenta durante todo el ciclo de desarrollo y para ello debe existir un ambiente
+                            apto para la comunicación y colaboración constante. Para solucionar este problema, la
+                            metodología DevOps establece un conjunto de prácticas que obligan a un cambio cultural,
+                            abogando por la comunicación, colaboración continua y automatización de los procesos.
+                            Particularmente, reconoce la interdependencia del desarrollo y operaciones, unificando
+                            durante todo el ciclo las fases de integración del código y el despliegue de versiones
+                            incrementales del software. Teniendo en cuenta lo anterior, el proyecto consiste en la
+                            elaboración de una guía práctica o framework sobre el desarrollo de software bajo la
+                            metodología DevOps, a partir de un prototipo que establezca suficientes retos para validar
+                            las buenas prácticas y las ventajas que ofrece la metodología y un ambiente automatizado.
+                            Este prototipo plantea una solución web al ofrecimiento y obtención de servicios, en nuestro
+                            caso una plataforma para servicios de la salud que vincula directamente a pacientes con
+                            médicos especialistas y centros de salud. La principal intención de esta guía es permitir
+                            tanta libertad como sea posible al lector con respecto a la selección de tecnologías y
+                            metodologías ágiles de desarrollo, sin embargo, haciendo énfasis en Docker como herramienta
+                            central para todos los procesos de integración y despliegue continuo. Los resultados finales
+                            consisten en el documento guía y el prototipo funcional a partir de las tecnologías y
+                            recomendaciones tratadas en el marco de trabajo, sobre un ambiente de desarrollo y
+                            operaciones automatizado.</p>
+                    </article>
+                    <article id="centrador">
+                        <img src="./css/images/DevOps.PNG"><br><br>
+                    </article>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Paradigma CI/CD</h2>
+                    <article>
+                        <p>La CI/CD es un método para distribuir aplicaciones a los clientes con frecuencia mediante el
+                            uso de la automatización en las etapas del desarrollo de aplicaciones. Los principales
+                            conceptos que se atribuyen a la CI/CD son la integración continua, la distribución continua
+                            y la implementación continua. La CI/CD es una solución para los problemas que puede generar
+                            la integración del código nuevo a los equipos de desarrollo y de operaciones (también
+                            conocida como "Integration Hell").</p>
+                        <p>En concreto, la CI/CD incorpora la automatización continua y el control permanente en todo el
+                            ciclo de vida de las aplicaciones, desde las etapas de integración y prueba hasta las de
+                            distribución e implementación. Este conjunto de prácticas se conoce como "canales de CI/CD",
+                            y cuenta con el soporte de DevOps.</p>
+                        <p><strong>Distribución continua</strong><br>Después de la automatización de los diseños y las
+                            pruebas de unidad e integración de la CI, la distribución continua automatiza la liberación
+                            de ese código validado hacia un repositorio. Por eso, para que el proceso de distribución
+                            continua sea eficaz, es importante que la CI ya esté incorporada a su canal de desarrollo.
+                            El objetivo de la distribución continua es tener una base de código que pueda implementarse
+                            en un entorno de producción en cualquier momento. <br>
+                            En la distribución continua, cada etapa (desde la fusión de los cambios en el código hasta
+                            la distribución de los diseños listos para la producción) implica la automatización de las
+                            pruebas y de la liberación de código. Al final de este proceso, el equipo de operaciones
+                            puede implementar una aplicación para que llegue a la etapa de producción de forma rápida y
+                            sencilla.</p>
+                        <p><strong>Implementación continua</strong><br>La última etapa de la canalización consolidada de
+                            integración y distribución continuas es la implementación continua, que automatiza el
+                            lanzamiento de una aplicación a la producción, ya que es una extensión de la distribución
+                            continua, la cual automatiza el lanzamiento de una compilación lista para la producción a un
+                            repositorio del código. Debido a que no hay una entrada manual en la etapa del canal
+                            anterior a la producción, la implementación continua depende, en gran medida, del correcto
+                            diseño de la automatización de pruebas.<br>
+                            En la práctica, la implementación continua implica que el cambio implementado por un
+                            desarrollador en una aplicación pueda ponerse en marcha unos cuantos minutos después de
+                            escribirlo (en el supuesto de que haya pasado las pruebas automatizadas). Esto facilita
+                            mucho más el proceso de recibir e incorporar continuamente los comentarios de los usuarios.
+                            En conjunto, todas estas prácticas de CI/CD relacionadas hacen que la implementación de una
+                            aplicación se lleve a cabo con menos riesgos, ya que es más fácil liberar cambios en las
+                            aplicaciones en fragmentos pequeños, en vez de hacerlo todo de una sola vez. Sin embargo,
+                            también deben realizarse muchas inversiones iniciales, ya que las pruebas automatizadas
+                            deben diseñarse para que se adapten a las distintas etapas de prueba y liberación en el
+                            canal de la CI/CD.</p>
+                    </article>
+                    <article id="centrador">
+                        <img src="./css/images/CI-CD.PNG">
+                    </article>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+<br>
+<footer class="footer" , class="pie_de_pagina">
+    <p>Elaborado por: Sebastián Vásquez González</p>
+</footer>
+
+</html>
